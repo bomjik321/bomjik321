@@ -12,8 +12,3 @@
     </body>
  <html>
     
-@import (url:"https://marksheet.io/css/reset.css");
-html {
-    margin: 0;
-    padding: 0;
-}
