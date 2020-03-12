@@ -1,5 +1,6 @@
 /* Импорт стилей, шрифтов и иконок */
 /* Сброс CSS */
+
 @import url("https://bomjik321.github.io/bomjik321/");
 
 
@@ -30,6 +31,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 nav ul {
     margin: 0;
     padding: 0;
@@ -100,8 +102,10 @@ section {
 aside {
     flex: 1 0 auto;/* 1 - это ширина столбца */
     padding: 0 15px;
+
 }
 /* Подвал сайта */
 footer {
     flex: 0 0 auto;
+
 }
