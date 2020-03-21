@@ -140,3 +140,14 @@ footer {
     flex: 0 0 auto;
 
 }
+
+header a,
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover,
+footer a:hover{
+    text-decoration: underline;
+}
