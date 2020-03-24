@@ -10,6 +10,30 @@ html {
     /*width: 100px;*/
     background-color: #666;
     border-radius: 5px;
+    {
+        padding:20 px 30px;
+        margin: 10px 20px;
+        text-decoration: none !important;
+    }
+}
+.button:hover {
+        background-color: #888;
+
+}
+
+.container {
+        padding: 0 15px;
+
+    }
+
+    body {
+        font-size: 14px;
+
+    }
+
+    h1{
+        font-size: 2.4em;
+        padding: .8em 0 1.2e, 0;
 
 }
 
@@ -35,6 +59,9 @@ body {
     display: flex;
     flex-direction: row;
 
+}
+.b-rigth {
+    border-right: 1px solid #e5e5e5;
 }
 
 .column {
@@ -72,6 +99,9 @@ img {
 header {
     flex: 0 0 auto;
 
+}
+header.logo {
+    width: 100px;
 }
 
 .col-3 {
@@ -112,6 +142,16 @@ main{
     flex: 0 0 auto
 
 }
+aside a{
+    color: #000;
+    text-decoration: none;
+}
+aside a:hover {
+    text-decoration: underline;
+}
+aside li {
+    line-height: 1.5em;
+}
 
 main >div.container{
     flex: 0 0 auto;
@@ -150,4 +190,7 @@ footer a{
 header a:hover,
 footer a:hover{
     text-decoration: underline;
+}
+footer li {
+    line-height: 2em;
 }
